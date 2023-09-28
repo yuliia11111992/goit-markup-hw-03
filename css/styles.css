@@ -195,6 +195,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 margin-bottom: 72px;
+margin-bottom: 8px;
  }
  .section_team_title_list{
   display: flex;
@@ -218,6 +219,7 @@ border-radius: 0px 0px 4px 4px;
 color:#434455;
 letter-spacing: 0.32px;
 line-height: 150%; 
+text-align: center; 
  }
  .portfolio_title {
   color: #2e2f42;
