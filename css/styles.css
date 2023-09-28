@@ -133,11 +133,11 @@ letter-spacing: 0.04em;
 color: #ffffff;
 font-size: 16px;
 height: 56px;
-width: 169px;
+min-width: 169px;
 border-radius: 4px;
 margin-top: 48px;
 border: none; 
-display: inline-flex;
+display: block;
 padding: 16px 32px;
 align-items: flex-start;
 gap: 10px;
@@ -159,7 +159,7 @@ margin: 0 auto;
   gap: 24px;
 }
 .two_section_list{
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4); 
 }
 .section_title {
   
@@ -182,7 +182,8 @@ letter-spacing: 0.02em;
  }
  .section_team {
   background-color: #F4F4FD;
-
+  padding: 120px 0;
+  
  }
 
  .section_team_title {
@@ -193,11 +194,25 @@ font-size: 36px;
 line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
+margin-bottom: 72px;
+ }
+ .section_team_title_list{
+  display: flex;
+  gap: 24px;;
  }
 .section-three {
-background-color: #FFFFFF
+background-color: #FFFFFF;
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px; 
 }
- 
+.employee{
+  padding: 32px 0;
+
+}
+.section_list_employee{
+  text-align: center;
+
+} 
  .team_profession {
 color:#434455;
 letter-spacing: 0.32px;
