@@ -32,12 +32,17 @@ width: 1440px;
 color: #E7E9FC;
 background:  #FFF;
 border-bottom: 1px solid  #E7E9FC;
+padding: 24px 0px;
 }
 .container {
   display: flex;
   width: 1158px; 
   margin: 0 auto;
   padding: 0 15px;
+}
+.container_head{
+  justify-content: space-between;
+
 }
 .navigation {
   display: flex;
@@ -89,6 +94,8 @@ letter-spacing: 0.02em;
  .address_page .address_page_list_contact:focus {
         color: #404bbf;
     }
+
+  
 
  .main_title_section {
 background-color: #2e2f42;
