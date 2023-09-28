@@ -23,7 +23,8 @@ body {
 
 font-family: Roboto, sans-serif; 
 background: #FFF;
-color: #434455
+color: #434455;
+width: 1440px;
 
 
 }
@@ -35,6 +36,12 @@ border-bottom: 1px solid  #E7E9FC;
 .container {
   display: flex;
   width: 1158px; 
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.navigation {
+  display: flex;
+  align-items: center; 
 }
 .logo {
 color:#4D5AE5;
@@ -44,6 +51,7 @@ font-size: 18px;
 line-height: 1.17;
 text-transform: uppercase;
 letter-spacing: 0.03em;
+margin-right: 76px;
 
 }
 .logo_navy {
@@ -56,11 +64,21 @@ line-height: 1.17;
 line-height: 1.5;
 font-weight: 500;
 letter-spacing: 0.02em; 
+padding: 24px 0; 
+}
+.navigation_list{
+  display: flex;
+  gap: 40px ;
 }
 .navigation_list .link:hover {color: #404bbf;}
 .navigation_list .link:focus {color: #404bbf;}
 
 .address_page {font-style: normal;}
+.address_page_list{
+  display: flex;
+  gap: 40px;
+  
+}
 
  .address_page_list_contact {
 line-height: 1.5;
