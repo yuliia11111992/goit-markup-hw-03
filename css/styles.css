@@ -142,9 +142,8 @@ display: block;
 padding: 16px 32px;
 align-items: flex-start;
 gap: 10px;
-
-
 }
+
 .button:hover {background-color: #404BBF;}
 .button:active {background-color: #404BBF;}
 .button:focus {background-color: #404BBF;}
@@ -293,6 +292,8 @@ padding: 100px 0;
   display: inline-block;
   margin-bottom: 16px; 
  color: #4D5AE5;
+ display: inline-block;
+ 
  }
  .logo_iris {
      color: #4D5AE5;
