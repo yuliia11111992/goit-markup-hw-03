@@ -104,10 +104,16 @@ letter-spacing: 0.02em;
 text-align: center;
 font-size: 56px;
 padding: 188px 0;
-
-
+flex-direction: column;
+display: flex;
+width: 1440px;
+height: 72px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
 
  }
+ 
  .main_title_section_item {
   font-family: Roboto;
   color: #ffffff;
@@ -115,8 +121,7 @@ padding: 188px 0;
   letter-spacing: 1.12px;
 font-size: 56px;
 max-width: 496px;
-
-
+margin: 0 auto;
  }
   
 .button {
@@ -126,20 +131,39 @@ font-family: "Roboto", sans-serif;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #ffffff;
-font-weight: 500;
 font-size: 16px;
-min-width: 169px;
 height: 56px;
+width: 169px;
 border-radius: 4px;
 margin-top: 48px;
 border: none; 
-
+display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+margin: 0 auto;
 
 }
 .button:hover {background-color: #404BBF;}
 .button:active {background-color: #404BBF;}
 .button:focus {background-color: #404BBF;}
 
+.section_two {
+  padding: 120px 0;
+}
+.visually-hidden {
+
+}
+.section_list {
+  display: flex;
+  gap: 24px;
+}
+.two_section_list{
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.section_title {
+  
+}
  .section_list_item {
 color: #2e2f42;
 font-family: Roboto;
@@ -147,6 +171,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
  }
  .section_list_item_text {
 color: #434455;
