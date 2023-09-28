@@ -25,11 +25,16 @@ font-family: Roboto, sans-serif;
 background: #FFF;
 color: #434455
 
+
 }
 .head {
 color: #E7E9FC;
 background:  #FFF;
 border-bottom: 1px solid  #E7E9FC;
+}
+.container {
+  display: flex;
+  width: 1158px; 
 }
 .logo {
 color:#4D5AE5;
