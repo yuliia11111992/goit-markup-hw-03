@@ -151,14 +151,7 @@ gap: 10px;
 .section_two {
   padding: 120px 0;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-}
+
 .section_list {
   display: flex;
   gap: 24px;
@@ -167,7 +160,7 @@ gap: 10px;
   width: calc((100% - 72px) / 4); 
 }
 .section_title {
-  
+  visually: hidden;
 }
  .section_list_item {
 color: #2e2f42;
@@ -287,6 +280,9 @@ letter-spacing: 0.32px;
  .footer {
 background:  #2E2F42;
 padding: 100px 0;
+ }
+ .logo-logo {
+  display: inline-block;
  }
  .logo_footer {
   display: inline-block;
