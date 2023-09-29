@@ -292,14 +292,12 @@ letter-spacing: 0.32px;
 background:  #2E2F42;
 padding: 100px 0;
  }
- .logo-logo {
-  display: inline-block;
- }
+ 
  .logo_footer {
-  display: inline-block;
   margin-bottom: 16px; 
  color: #4D5AE5;
  display: inline-block;
+ margin-bottom: 16px; 
  
  }
  .logo_iris {
