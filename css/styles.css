@@ -25,9 +25,8 @@ font-family: Roboto, sans-serif;
 background: #FFF;
 color: #434455;
 width: 1440px;
-
-
 }
+/*========header======*/
 .head {
 color: #E7E9FC;
 background:  #FFF;
@@ -58,12 +57,14 @@ line-height: 1.17;
 text-transform: uppercase;
 letter-spacing: 0.03em;
 margin-right: 76px;
+display: inline-block;
 
 }
 .logo_navy {
 color:#2E2F42;
 font-family: Raleway;
 line-height: 1.17;
+display: inline-block;
 }
 .link {
  color: #2e2f42;
@@ -96,8 +97,7 @@ letter-spacing: 0.02em;
         color: #404bbf;
     }
 
-  
-
+/*========section 1======*/
  .main_title_section {
 background-color: #2e2f42;
 color: #ffffff;
@@ -147,6 +147,8 @@ gap: 10px;
 .button:hover {background-color: #404BBF;}
 .button:active {background-color: #404BBF;}
 .button:focus {background-color: #404BBF;}
+
+/*========section 2======*/
 
 .section_two {
   padding: 120px 0;
@@ -291,6 +293,7 @@ letter-spacing: 0.32px;
  .footer {
 background:  #2E2F42;
 padding: 100px 0;
+display: inline-block; 
  }
  
  .logo_footer {
@@ -298,7 +301,6 @@ padding: 100px 0;
  color: #4D5AE5;
  display: inline-block;
  margin-bottom: 16px; 
- 
  }
  
  .logo_cloud {
