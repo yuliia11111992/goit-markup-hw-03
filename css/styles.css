@@ -34,7 +34,6 @@ border-bottom: 1px solid  #E7E9FC;
 padding: 24px 0px;
 }
 .container {
- 
   width: 1158px; 
   margin: 0 auto;
   padding: 0 15px;
@@ -42,6 +41,7 @@ padding: 24px 0px;
 }
 .container_head{
   justify-content: space-between;
+  display: flex;
 
 }
 .navigation {
