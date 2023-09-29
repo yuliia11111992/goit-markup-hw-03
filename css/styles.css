@@ -295,6 +295,9 @@ letter-spacing: 0.32px;
 background:  #2E2F42;
 padding: 100px 0;
  }
+ .logo_item {
+  display: inline-block;
+ }
  
  .logo_footer {
   margin-bottom: 16px; 
