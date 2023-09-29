@@ -159,7 +159,7 @@ gap: 10px;
 .two_section_list{
   width: calc((100% - 72px) / 4); 
 }
-.section_title
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -300,13 +300,11 @@ padding: 100px 0;
  margin-bottom: 16px; 
  
  }
- .logo_iris {
-     color: #4D5AE5;
-     font-family: Raleway;}
-
+ 
  .logo_cloud {
  font-family: Raleway;
  line-height: 116.667%;
  text-transform: uppercase;
 color: #f4f4fd;
+display: inline-block;
 }
